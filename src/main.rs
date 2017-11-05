@@ -32,4 +32,12 @@ fn main() {
     println!("product : {}", product);
     println!("quotient : {}", quotient);
     println!("remainder : {}", remainder);
+
+    let t = true;
+    let f: bool = false;
+    let or = t || f;
+    let and = t && f;
+
+    println!("or : {}", or);
+    println!("and : {}", and);
 }
