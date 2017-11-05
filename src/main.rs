@@ -36,8 +36,7 @@ fn main() {
     println!("quotient : {}", quotient);
     println!("remainder : {}", remainder);
 
-    // about booleans
-    //
+    // about booleans 
     let t = true;
     let f: bool = false;
     let or = t || f;
@@ -45,4 +44,11 @@ fn main() {
 
     println!("or : {}", or);
     println!("and : {}", and);
+
+    // about tuples
+    let tup: (i32, f64, u8) = (500, 6.4, 1);
+    let (r, s, t) = tup;
+
+    println!("The values of the tuple are {}, {} and {}.", r, s, t);
+    println!("We can access the values more directly : {}, {} and {}.", tup.0, tup.1, tup.2);
 }
