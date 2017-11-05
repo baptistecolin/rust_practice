@@ -51,4 +51,10 @@ fn main() {
 
     println!("The values of the tuple are {}, {} and {}.", r, s, t);
     println!("We can access the values more directly : {}, {} and {}.", tup.0, tup.1, tup.2);
+    
+    // about arrays
+    let tab = [0, 1, 2, 3, 4, 5];
+    let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+    println!("The current month is {}", months[10]);
 }
